@@ -1,0 +1,8 @@
+- Perceptron. --> Multi class classification is not impossible but seems hard.❌
+- Linear Regression. --> Only suitable for numerical and not categorical labels.❌
+- Logistic Regression. --> CAN apply multinomial logistic regression. Done ✅
+- Ridge Regression. 
+- SVM. 
+- Soft Margin SVM. 
+- Non linear SVM. 
+- Non linear Soft Margin SVM.
