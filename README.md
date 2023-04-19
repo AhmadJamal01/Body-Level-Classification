@@ -27,3 +27,8 @@
 -   Alcohol_Consump: Frequency of alcohols consumption.
 -   Transport: Which transports does the person usually use?
 -   Body_Level: Class of human body level.
+
+## Models Trained:
+### 1. Multinomial Logistic Regression:
+-   Achieved an accuracy of 84.79% Accuracy, Macro Precision: 0.8397, Macro Recall: 0.78297 & Macro F1-score: 0.78337 on the validation data set.
+-   Used 500 as the maximum number of iterations and it seems enough for it to converge since the data is small. Also, tried manually larger values as 5000 but no noticeable change.
