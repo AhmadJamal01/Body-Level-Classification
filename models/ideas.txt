@@ -8,9 +8,9 @@ From our syllabus:
 - Non linear SVM. 
 - Non linear Soft Margin SVM.
 In general:
-- Random Forest
 - Naïve Bayes (NB)
 - Decision Tree --> CAN apply Multi-class Decision Tree. Done ✅
+- Random Forest --> CAN apply Multi-class Random Forest. Done ✅
 - Gaussian Mixture Model (GMM)
 - K-nearest Neighbors (KNN)
 - Discriminant Analysis
