@@ -45,5 +45,5 @@
 -   Achieved an accuracy of `97.297%` Accuracy, Macro Precision: 0.95739, Macro Recall: 0.9524 & Macro F1-score: `0.95473` on the validation data set. This result was achieved with `1000 estimators`.
 - Used criterion as `"entropy"` instead of the default "gini".
 ### 4. Multinomial Naïve Bayes:
-- Achieved an accuracy of `64.189%` Accuracy, Macro Precision: 0.59559, Macro Recall: 0.60417 & Macro F1-score: `0.598796` on the validation data set.
-- Had to convert all numerical data to ranges/bins. Tried 10, 16 & 30 bins with `30 bins` resulting in the highest accuracy.
+- Achieved an accuracy of `70.9459%` Accuracy, Macro Precision: 0.67155, Macro Recall: 0.65484 & Macro F1-score: `0.651486` on the validation data set.
+- Had to convert all numerical data to ranges/bins. Tried 10, 16 & 30 bins with `30 bins` resulting in the highest accuracy out of the bins. However, using the numerical data without binning yields the best results overall.
