@@ -3,7 +3,7 @@ From our syllabus:
 - Linear Regression. --> Only suitable for numerical and not categorical labels.❌
 - Logistic Regression. --> CAN apply multinomial logistic regression. Done ✅
 - Ridge Regression. 
-- SVM. 
+- SVM.  -> in progress
 - Soft Margin SVM. 
 - Non linear SVM. 
 - Non linear Soft Margin SVM.
@@ -15,3 +15,4 @@ In general:
 - K-nearest Neighbors (KNN)
 - Discriminant Analysis
 - Neural Network (NN)
+- Boosting & Bagging
