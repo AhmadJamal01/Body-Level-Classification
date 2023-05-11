@@ -31,6 +31,12 @@
 ### Basic Analysis & Visualization:
 - Basic Data Analysis was performed in `analyze.ipynb`. Also, detected some outliers and used a baseline measure: ZeroR which resulted in 47.297% accuracy and macro F1 of 0.1605.
 - Used multiple ways to visualize the data in `visualize_data.ipynb` as bar charts, histograms, scatter, boxplots and a heatmap.
+
+### Class Imbalance Analysis
+- Analyzed the class imbalance and found that Body Levels 1 -> 4 are `0.137464`, `0.130687`, `0.274927`, and `0.456922`.
+- Analyzed the features & their correlation/connection to the `Body_Level` and found that all the features are at least statistically related to `Body_Level` and after further investigation, the `Weight` feature the most correlated (0.85) to the `Body_Level`, followed by `Fam_Hist`, and `Age`.
+- Attempted to solve the class Imbalance by both over-sampling & under-sampling.
+- Attempted to solve the class Imbalance using synthetic data generation once without using the relationship between features & once while taking them into account. 
 ### Preprocssing:
 - Converted all the categorical data to numerical data by converting them to one hot encoding vectors manually in `all_numerical_data.ipynb`.
 - To use it, simply write `%run "../all_numerical_data.ipynb"` at the beginning of your notebook and then directly use x_train, y_train, x_val and y_val afterwards.
