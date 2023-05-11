@@ -7,6 +7,7 @@ From our syllabus:
 - Soft Margin SVM. 
 - Non linear SVM. 
 - Non linear Soft Margin SVM.
+
 In general:
 - Decision Tree --> CAN apply Multi-class Decision Tree. Done ✅
 - Random Forest --> CAN apply Multi-class Random Forest. Done ✅
