@@ -2,18 +2,18 @@ From our syllabus:
 - Perceptron. --> Multi class classification is not impossible but seems hard.❌
 - Linear Regression. --> Only suitable for numerical and not categorical labels.❌
 - Logistic Regression. --> CAN apply multinomial logistic regression. Done ✅
-- Ridge Regression. 
-- SVM.  -> in progress
-- Soft Margin SVM. 
-- Non linear SVM. 
-- Non linear Soft Margin SVM.
+- Ridge Regression. --> Done ✅
+- SVM. --> Done ✅
+- Soft Margin SVM. --> Done ✅
+- Non linear SVM. --> Done ✅
+- Non linear Soft Margin SVM. --> Done ✅
 
 In general:
 - Decision Tree --> CAN apply Multi-class Decision Tree. Done ✅
 - Random Forest --> CAN apply Multi-class Random Forest. Done ✅
 - Naïve Bayes (NB) --> CAN apply multinomial Naïve Bayes. Done ✅
-- Gaussian Mixture Model (GMM)
-- K-nearest Neighbors (KNN)
+- Gaussian Mixture Model (GMM) --> Done ✅
+- K-nearest Neighbors (KNN) --> Done ✅
 - Discriminant Analysis
 - Neural Network (NN)
 - Boosting & Bagging

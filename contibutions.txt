@@ -1,0 +1,30 @@
+Ahmed:
+    Ridge Classifier.
+        Alpha vs. Bias-Variance
+        Alpha vs. accuracy
+    AdaBoost on Decision Trees.
+        Learning Curves
+        # Estimators vs. Error
+    Bagging on Decision Trees
+    Learning Curves
+    #Estimators vs. Error
+Iten:
+    Data Analysis.
+    Data Visualization.
+    Multinomial Logistic Regression.
+    Multi-class Decision Tree.
+    Multi-class Random Forest.
+    Multinomial Naïve Bayes.
+Radwa:
+    Linear SVM.
+    Soft Margin Linear SVM.
+    Non-Linear SVM.
+    Soft Margin Non-Linear SVM.
+    Learning Curve.
+Abdelrahman:
+    Class Imbalance Analysis.
+    Features and their correlation to the classes’ analysis.
+    KNN Model.
+    GMM Model.
+    Bias-Variance Analysis on KNN & GMM models.
+    Learning Curves.
