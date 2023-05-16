@@ -33,6 +33,13 @@
 ### Basic Analysis & Visualization:
 - Basic Data Analysis was performed in `analyze.ipynb`. Also, detected some outliers and used a baseline measure: ZeroR which resulted in 47.297% accuracy and macro F1 of 0.1605.
 - Used multiple ways to visualize the data in `visualize_data.ipynb` as bar charts, histograms, scatter, boxplots and a heatmap.
+<p align ="center">
+    <img src="https://github.com/AhmadJamal01/Body-Level-Classification/blob/main/Images/boxbplot.PNG"  ></img>
+</p>
+<p align ="center">
+    <img src="https://github.com/AhmadJamal01/Body-Level-Classification/blob/main/Images/scatter%20plots.PNG" width=70%  ></img>
+</p>
+
 
 ### Class Imbalance Analysis
 - Analyzed the class imbalance and found that Body Levels 1 -> 4 are `0.137464`, `0.130687`, `0.274927`, and `0.456922`.
@@ -113,6 +120,55 @@
 | Oversampled         | 77%      |
 | Smote               | 77%      |
 | Smote with Importance | 77%      |
+### Bagged Decision Trees
+- we did learning curve analysis and bias variance analysis
 
+<p align ="center">
+    <img src="https://github.com/AhmadJamal01/Body-Level-Classification/blob/main/Images/bagging.PNG"  ></img>
+</p>
+
+### Boosting Decision Trees **( Best Model )**
+It gets **99%** accuracy & **99%** Weighted F1-Score
+* Best max_depth: 5
+* Best n_estimators: 100
+* Best learning_rate: 1.0
+
+<br>
+
+###  Collaborators
+
+<!-- readme: collaborators -start -->
+<table>
+<tr>
+    <td align="center">
+        <a href="https://github.com/Hero2323">
+            <img src="https://avatars.githubusercontent.com/u/58619697?v=4" width="100;" alt="Abdelrahman Jamal"/>
+            <br />
+            <sub><b>Abdelrahman Jamal</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Iten-No-404">
+            <img src="https://avatars.githubusercontent.com/u/56697800?v=4" width="100;" alt="Iten-No-404"/>
+            <br />
+            <sub><b>Iten Elhak</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/radwaahmed2132000">
+            <img src="https://avatars.githubusercontent.com/u/56734728?v=4" width="100;" alt="radwaahmed2132000"/>
+            <br />
+            <sub><b>Radwa Ahmed</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/AhmadJamal01">
+            <img src="https://avatars.githubusercontent.com/u/65499354?v=4" width="100;" alt="Ahmed Jamal"/>
+            <br />
+            <sub><b>Ahmed Jamal</b></sub>
+        </a>
+    </td></tr>
+</table>
+<!-- readme: collaborators -end -->
 
 
